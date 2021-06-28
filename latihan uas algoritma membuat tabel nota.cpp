@@ -14,7 +14,7 @@ main()
 		int htotal=0;
 		float disc, jbayar=0
 		//menu
-		cout<<"=======daftar menu=======" <<endl;
+		;cout<<"=======daftar menu=======" <<endl;
 		cout<<"1. telur \t:22.000" <<endl;
 		cout<<"2. indomie \t:3.000" <<endl;
 		cout<<"3. kecap \t:75.000" <<endl;
@@ -34,6 +34,8 @@ main()
 		si=ji*indomie;
 		sk=jk*kecap;
 		sr=jr*roti;
+		//menghitung total di subtotal
+		htotal=st+si+sk+sr;
 		//menghitung diskon
 		if(htotal>=100000)
 		{
