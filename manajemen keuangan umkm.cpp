@@ -6,7 +6,7 @@ main() {
 	char ulang;
 	int pil,modal,pendapatan,laba,rugi;
 	system("cls");
-    cout<<"Manajemen Keuangan UMKM" <<endl;
+	cout<<"Manajemen Keuangan UMKM" <<endl;
 	cout<<"--------------------------------" <<endl;
 	cout<<"=========Pilihan Program========" <<endl;
 	cout<<"1. Laba dan Rugi" <<endl;
@@ -15,7 +15,7 @@ main() {
 	cin>>pil;
 	cout<<"--------------------------------" <<endl;
 	switch(pil) {
-	    case 1:
+		case 1:
 			cout<<"Menghitung Laba dan Rugi" <<endl;
 			cout<<"--------------------------------" <<endl;
 			cout<<"Masukan jumlah modal : Rp. ";
