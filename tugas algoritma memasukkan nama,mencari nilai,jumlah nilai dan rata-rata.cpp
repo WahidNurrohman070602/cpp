@@ -6,6 +6,8 @@ main() {
 	int a=0,sum=0;
 	float jumlah_data,rata_rata;
 	jumlah_data=sizeof(nilai)/sizeof(*nilai);
+	cout<<"\n============ | input data | ============\n";
+	cout<<endl;
 	for(a=0;a<5;a++) {
 		cout<<"masukkan nama : ";
 		cin>>nama[a];
