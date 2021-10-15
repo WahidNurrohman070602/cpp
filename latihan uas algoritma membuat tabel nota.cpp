@@ -12,9 +12,9 @@ main()
 		int jk,sk=0,kecap=7500;
 		int jr,sr=0,roti=12000;
 		int htotal=0;
-		float disc, jbayar=0
+		float disc, jbayar=0;
 		//menu
-		;cout<<"=======daftar menu=======" <<endl;
+		cout<<"=======daftar menu=======" <<endl;
 		cout<<"1. telur \t:22.000" <<endl;
 		cout<<"2. indomie \t:3.000" <<endl;
 		cout<<"3. kecap \t:75.000" <<endl;
