@@ -54,6 +54,7 @@ main() {
 		}else if(menu==3) {
 			cout<<"reset antrian";
 			for(int a=0;a<belakang;a--) {
+				max=0;
 				jumlah=0;
 				belakang=0;
 			}
