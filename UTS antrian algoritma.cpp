@@ -15,8 +15,6 @@ main() {
 		cout<<"===============================\n";
 		cout<<"|\tprogram antrian\t|\n";
 		cout<<"===============================\n";
-//		cout<<"masukkan jumlah maksimal antrian : ";
-//		cin>>jumlah;
 		cout<<"data pengantri saat ini\n";
 		for(int a=0;a<belakang;a++) {
 			cout<<antrian[a] <<"|";
@@ -30,7 +28,6 @@ main() {
 		cout<<"\npilih : ";
 		cin>>menu;
 		cout<<"===============================\n";
-		//opsi menu
 		if(menu==1) {
 			if(jumlah==max) {
 				cout<<"antrian sudah penuh!";
